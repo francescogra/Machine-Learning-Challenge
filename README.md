@@ -12,4 +12,4 @@ The challenge proposes two development methods for the previously described loca
 
 Classification-based localisation: each image has a label indicating in which part of the building the image was acquired. To obtain the labels, the building is generally divided into non-overlapping zones, so that each image belongs to one and only one class;
 
-![alt text]("https://github.com/francescogra/Machine-Learning-Challenge/blob/main/slide1.png")
+![alt text](https://github.com/francescogra/Machine-Learning-Challenge/blob/main/slide1.png "Machine Learning Challenge")

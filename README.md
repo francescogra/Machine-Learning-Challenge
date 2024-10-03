@@ -10,6 +10,16 @@ The challenge is to tackle an image-based localisation problem, i.e. to construc
 
 The challenge proposes two development methods for the previously described localisation, classification or regression, in this documentation we will deal with classification-based development. 
 
-Classification-based localisation: each image has a label indicating in which part of the building the image was acquired. To obtain the labels, the building is generally divided into non-overlapping zones, so that each image belongs to one and only one class;
+# Classification-based localisation: 
+each image has a label indicating in which part of the building the image was acquired. To obtain the labels, the building is generally divided into non-overlapping zones, so that each image belongs to one and only one class;
 
 ![alt text](https://github.com/francescogra/Machine-Learning-Challenge/blob/main/slide1.png "Machine Learning Challenge")
+
+# Evaluation
+The algorithm is to be evaluated by reporting:
+- Clasification: Accuracy, confusion matrix, F1 scores relative to the different classes and mF1 scores;
+
+# Dataset 
+The dataset consists of 19531 images acquired inside a supermarket, divided into Each image is labelled with respect to: - Class to which it belongs. The supermarket was divided into 16 macro-areas and each image was assigned to one of these macro-areas. The classes are numbers ranging from 0 to 15. The figure below shows the plot of the positions of the images in the training set. The colours indicate the classes to which each image belongs. The labels of the training and validation set are provided, while those of the testing set are not made public.
+
+![alt text](https://github.com/francescogra/Machine-Learning-Challenge/blob/main/slide2.png "Machine Learning Challenge")
